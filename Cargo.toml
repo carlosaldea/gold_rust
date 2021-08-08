@@ -7,6 +7,6 @@ edition = "2018"
 
 [[bin]]
 name = "udp_client"
-path = "src/udp_client/main.rs"
+path = "udp_client/main.rs"
 
 [dependencies]
