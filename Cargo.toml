@@ -9,4 +9,8 @@ edition = "2018"
 name = "udp_client"
 path = "udp_client/main.rs"
 
+[[bin]]
+name = "CL_parser"
+path = "command_line_parser/main.rs"
+
 [dependencies]
