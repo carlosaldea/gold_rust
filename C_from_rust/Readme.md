@@ -3,7 +3,8 @@
 ## BUILD LIBRARY
 In order to build the C library run the following commands:
 
-```gcc -c c_stuff.c
+```
+gcc -c c_stuff.c
 gcc -o libstuff.so -shared c_stuff.o
 ````
 
