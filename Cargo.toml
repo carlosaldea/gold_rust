@@ -6,6 +6,10 @@ edition = "2018"
 
 
 [[bin]]
+name = "udp_server"
+path = "udp_server/main.rs"
+
+[[bin]]
 name = "udp_client"
 path = "udp_client/main.rs"
 
