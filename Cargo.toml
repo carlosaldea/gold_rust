@@ -14,7 +14,11 @@ name = "udp_client"
 path = "udp_client/main.rs"
 
 [[bin]]
-name = "CL_parser"
+name = "cl_parser"
 path = "command_line_parser/main.rs"
+
+[[bin]]
+name = "c_from_rust"
+path = "C_from_rust/main.rs"
 
 [dependencies]

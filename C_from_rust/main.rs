@@ -1,6 +1,7 @@
-#[link(name = "stuff")]
+#[link(name="stuff")]
 extern "C" {
-   fn add_numbers(a: i32, b: i32) -> i32;
+    pub fn add_numbers(a: ::std::os::raw::c_int, b: ::std::os::raw::c_int)
+        -> ::std::os::raw::c_int;
 }
 
 
