@@ -1,4 +1,5 @@
-#[link(name="stuff")]
+
+#[link(name="stuff", kind="static")]
 extern "C" {
     pub fn add_numbers(a: ::std::os::raw::c_int, b: ::std::os::raw::c_int)
         -> ::std::os::raw::c_int;
@@ -11,5 +12,4 @@ fn main() {
     
         println!("5 + 4 = {}", add_result);
     }
-
 }

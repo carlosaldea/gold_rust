@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Carlos Aldea <aldea.car@gmail.com>"]
 edition = "2018"
 
-
 [[bin]]
 name = "udp_server"
 path = "udp_server/main.rs"
@@ -18,7 +17,9 @@ name = "cl_parser"
 path = "command_line_parser/main.rs"
 
 [[bin]]
+build = "C_from_rust/build.rs"
 name = "c_from_rust"
-path = "C_from_rust/main.rs"
+path = "C_from_rust/src/main.rs"
 
-[dependencies]
+[build-dependencies]
+cc = "1.0"

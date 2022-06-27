@@ -1,5 +1,3 @@
-use std::env::*;
-
 fn main() {
     // Prints each argument on a separate line
     // The code snippet below would be equivalent to 
